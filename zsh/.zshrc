@@ -100,6 +100,10 @@ fi
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias tmux="tmux -u"
+alias tnew="tmux new -s"
+alias tlist="tmux ls"
+alias tdet="tmux detach"
+alias tatt="tmux attach -t"
 
 # nvm
 export NVM_DIR="$HOME/.nvm"
