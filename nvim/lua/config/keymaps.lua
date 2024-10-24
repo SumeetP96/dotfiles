@@ -24,3 +24,10 @@ vim.keymap.set("n", "sv", ":vsplit<Return><C-w>w")
 vim.keymap.set("n", "<leader>tt", "<cmd>tabedit<CR>")
 vim.keymap.set("n", "tl", "<cmd>tabnext<CR>")
 vim.keymap.set("n", "th", "<cmd>tabprevious<CR>")
+
+vim.keymap.set("n", "<C-h>", "<Cmd>TmuxNavigateLeft<CR>", { silent = true })
+vim.keymap.set("n", "<C-j>", "<Cmd>TmuxNavigateDown<CR>", { silent = true })
+vim.keymap.set("n", "<C-k>", "<Cmd>TmuxNavigateUp<CR>", { silent = true })
+vim.keymap.set("n", "<C-l>", "<Cmd>TmuxNavigateRight<CR>", { silent = true })
+
+vim.keymap.set("n", "<leader>i", "<Cmd>ToggleBool<CR>", { silent = true })
